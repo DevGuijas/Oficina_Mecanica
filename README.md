@@ -1,6 +1,10 @@
 # Oficina_Mecanica
 Ordem de serviço back-end para Oficina Mecânica
 
+Baixar: 
+https://www.mongodb.com/try/download/community
+https://www.postman.com/downloads/
+
 
 Abaixo está um exemplo básico de como você pode construir uma aplicação em Node.js para gerenciar os cadastros de clientes e ordens de serviço em uma oficina mecânica, utilizando o Express para gerenciar as rotas, o MongoDB para armazenamento de dados, e o Mongoose para manipulação do banco de dados.
 
