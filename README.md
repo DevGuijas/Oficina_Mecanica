@@ -1,6 +1,9 @@
 # Oficina_Mecanica
 Ordem de serviço back-end para Oficina Mecânica
 
+npm install cors
+
+
 Baixar: 
 https://www.mongodb.com/try/download/community
 
