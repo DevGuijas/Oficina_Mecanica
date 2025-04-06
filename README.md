@@ -266,3 +266,45 @@ Copiar
   "descricaoProblema": "Problema no motor"
 }
 Com isso, você tem uma aplicação simples de gestão de clientes e ordens de serviço para uma oficina mecânica!
+
+------------------------------------------------------------------------------------------------------------------------
+
+1. Verifique as rotas do seu servidor
+O servidor está rodando corretamente, então o próximo passo é testar as rotas no Postman ou diretamente no navegador.
+
+Rota GET /api/clientes:
+Esta rota é usada para listar todos os clientes cadastrados no MongoDB.
+
+Abra o Postman.
+
+Selecione o método GET.
+
+Na barra de URL do Postman, coloque a URL:
+
+bash
+Copiar
+http://localhost:3000/api/clientes
+Clique em Send.
+
+Se houver clientes cadastrados, você verá uma lista de clientes no corpo da resposta. Se a lista estiver vazia, significa que ainda não há clientes no banco de dados.
+
+Rota POST /api/clientes:
+Esta rota é usada para criar um novo cliente. Para isso, você precisa enviar os dados no formato JSON.
+
+No Postman, selecione o método POST.
+
+Na barra de URL, coloque:
+
+bash
+Copiar
+http://localhost:3000/api/clientes
+No corpo da requisição (Body), selecione raw e, em seguida, escolha o tipo JSON. Então, insira o seguinte conteúdo JSON:
+
+json
+Copiar
+{
+  "nome": "João Silva",
+  "telefone": "123456789",
+  "email": "joao.silva@example.com"
+}
+Clique em Send.
